@@ -1,0 +1,24 @@
+2025-05-18 22:32:20,653 - INFO - Loading test dataset...
+2025-05-18 22:32:20,750 - INFO - Loading pretrained model...
+2025-05-18 22:32:21,499 - INFO - Loaded raw model weights from C:\Users\Administrator\Desktop\classification\weights\select\消融实验大数据集\上采样\bicubic
+2025-05-18 22:32:21,499 - INFO - Evaluating model on test set...
+2025-05-18 22:32:43,780 - INFO - 
+Test Results:
+2025-05-18 22:32:43,780 - INFO - Test Loss: 0.3234
+2025-05-18 22:32:43,780 - INFO - Test Accuracy: 0.8701
+2025-05-18 22:32:43,911 - INFO - 
+Classification Report:
+2025-05-18 22:32:43,911 - INFO - 
+              precision    recall  f1-score   support
+
+         Arc     0.9344    0.9501    0.9421     13094
+     Drapery     0.8136    0.8401    0.8267      5805
+     Hotspot     0.7831    0.7513    0.7669      2710
+      Radial     0.8137    0.7689    0.7907      5435
+
+    accuracy                         0.8701     27044
+   macro avg     0.8362    0.8276    0.8316     27044
+weighted avg     0.8690    0.8701    0.8693     27044
+
+2025-05-18 22:32:43,911 - INFO - 
+Results saved to C:\Users\Administrator\Desktop\classification\logs\消融实验\上采样\bicubic\test_results

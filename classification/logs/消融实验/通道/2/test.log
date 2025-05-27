@@ -1,0 +1,24 @@
+2025-05-17 22:00:01,653 - INFO - Loading test dataset...
+2025-05-17 22:00:01,747 - INFO - Loading pretrained model...
+2025-05-17 22:00:02,492 - INFO - Loaded raw model weights from C:\Users\Administrator\Desktop\classification\weights\select\消融实验大数据集\通道\2
+2025-05-17 22:00:02,492 - INFO - Evaluating model on test set...
+2025-05-17 22:00:17,789 - INFO - 
+Test Results:
+2025-05-17 22:00:17,790 - INFO - Test Loss: 0.3074
+2025-05-17 22:00:17,790 - INFO - Test Accuracy: 0.8793
+2025-05-17 22:00:17,924 - INFO - 
+Classification Report:
+2025-05-17 22:00:17,924 - INFO - 
+              precision    recall  f1-score   support
+
+         Arc     0.9530    0.9393    0.9461     13094
+     Drapery     0.8341    0.8543    0.8441      5805
+     Hotspot     0.7957    0.7546    0.7746      2710
+      Radial     0.7959    0.8236    0.8095      5435
+
+    accuracy                         0.8793     27044
+   macro avg     0.8447    0.8429    0.8436     27044
+weighted avg     0.8802    0.8793    0.8796     27044
+
+2025-05-17 22:00:17,924 - INFO - 
+Results saved to C:\Users\Administrator\Desktop\classification\logs\消融实验\通道\2\test_results

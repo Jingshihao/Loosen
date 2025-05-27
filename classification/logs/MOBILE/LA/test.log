@@ -1,0 +1,26 @@
+2025-05-15 18:08:17,026 - INFO - Loading test dataset...
+2025-05-15 18:08:17,122 - INFO - Loading pretrained model...
+2025-05-15 18:08:18,826 - INFO - Loaded raw model weights from C:\Users\Administrator\Desktop\classification\weights\select\M\LA
+2025-05-15 18:08:18,826 - INFO - Evaluating model on test set...
+2025-05-15 18:10:01,436 - INFO - 
+Test Results:
+2025-05-15 18:10:01,436 - INFO - Test Loss: 0.1342
+2025-05-15 18:10:01,436 - INFO - Test Accuracy: 0.9645
+2025-05-15 18:10:01,674 - INFO - 
+Classification Report:
+2025-05-15 18:10:01,674 - INFO - 
+              precision    recall  f1-score   support
+
+         Arc     0.9809    0.9821    0.9815     13094
+     Drapery     0.9623    0.9714    0.9668      5805
+     Hotspot     0.9167    0.8856    0.9009      2710
+      Radial     0.9505    0.9542    0.9523      5435
+
+    accuracy                         0.9645     27044
+   macro avg     0.9526    0.9483    0.9504     27044
+weighted avg     0.9644    0.9645    0.9644     27044
+
+2025-05-15 18:10:01,674 - INFO - 
+Results saved to ./logs/MOBILE/LA\test_results
+2025-05-17 14:09:44,366 - INFO - Loading test dataset...
+2025-05-17 14:09:44,460 - INFO - Loading pretrained model...

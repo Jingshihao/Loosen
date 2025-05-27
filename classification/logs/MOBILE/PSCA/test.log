@@ -1,0 +1,24 @@
+2025-05-15 12:27:10,259 - INFO - Loading test dataset...
+2025-05-15 12:27:10,356 - INFO - Loading pretrained model...
+2025-05-15 12:27:11,089 - INFO - Loaded raw model weights from C:\Users\Administrator\Desktop\classification\weights\select\M\PSCA
+2025-05-15 12:27:11,089 - INFO - Evaluating model on test set...
+2025-05-15 12:27:26,346 - INFO - 
+Test Results:
+2025-05-15 12:27:26,346 - INFO - Test Loss: 0.2443
+2025-05-15 12:27:26,346 - INFO - Test Accuracy: 0.9110
+2025-05-15 12:27:26,480 - INFO - 
+Classification Report:
+2025-05-15 12:27:26,480 - INFO - 
+              precision    recall  f1-score   support
+
+         Arc     0.9505    0.9554    0.9530     13094
+     Drapery     0.9011    0.8977    0.8994      5805
+     Hotspot     0.8057    0.8018    0.8038      2710
+      Radial     0.8778    0.8727    0.8753      5435
+
+    accuracy                         0.9110     27044
+   macro avg     0.8838    0.8819    0.8828     27044
+weighted avg     0.9108    0.9110    0.9109     27044
+
+2025-05-15 12:27:26,480 - INFO - 
+Results saved to ./logs/MOBILE/PSCA\test_results

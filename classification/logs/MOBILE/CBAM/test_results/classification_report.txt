@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+         Arc     0.9658    0.9649    0.9653     13094
+     Drapery     0.9297    0.9368    0.9332      5805
+     Hotspot     0.8500    0.8343    0.8421      2710
+      Radial     0.9089    0.9121    0.9105      5435
+
+    accuracy                         0.9351     27044
+   macro avg     0.9136    0.9120    0.9128     27044
+weighted avg     0.9350    0.9351    0.9351     27044

@@ -1,0 +1,50 @@
+2025-05-18 15:06:05,748 - INFO - Loading test dataset...
+2025-05-18 15:06:05,838 - INFO - Loading pretrained model...
+2025-05-18 15:07:21,343 - INFO - Loading test dataset...
+2025-05-18 15:07:21,436 - INFO - Loading pretrained model...
+2025-05-18 15:07:22,183 - INFO - Loaded raw model weights from C:\Users\Administrator\Desktop\classification\weights\select\消融实验大数据集\残差\32
+2025-05-18 15:07:22,183 - INFO - Evaluating model on test set...
+2025-05-18 15:07:45,178 - INFO - 
+Test Results:
+2025-05-18 15:07:45,178 - INFO - Test Loss: 0.2741
+2025-05-18 15:07:45,178 - INFO - Test Accuracy: 0.8946
+2025-05-18 15:07:45,308 - INFO - 
+Classification Report:
+2025-05-18 15:07:45,308 - INFO - 
+              precision    recall  f1-score   support
+
+         Arc     0.9373    0.9628    0.9499     13094
+     Drapery     0.8607    0.8737    0.8672      5805
+     Hotspot     0.8307    0.7513    0.7890      2710
+      Radial     0.8531    0.8239    0.8383      5435
+
+    accuracy                         0.8946     27044
+   macro avg     0.8704    0.8529    0.8611     27044
+weighted avg     0.8932    0.8946    0.8936     27044
+
+2025-05-18 15:07:45,308 - INFO - 
+Results saved to C:\Users\Administrator\Desktop\classification\logs\消融实验\通道\32\test_results
+2025-05-18 15:08:37,762 - INFO - Loading test dataset...
+2025-05-18 15:08:37,853 - INFO - Loading pretrained model...
+2025-05-18 15:08:38,607 - INFO - Loaded raw model weights from C:\Users\Administrator\Desktop\classification\weights\select\消融实验大数据集\通道\32
+2025-05-18 15:08:38,607 - INFO - Evaluating model on test set...
+2025-05-18 15:09:01,543 - INFO - 
+Test Results:
+2025-05-18 15:09:01,543 - INFO - Test Loss: 0.2741
+2025-05-18 15:09:01,543 - INFO - Test Accuracy: 0.8946
+2025-05-18 15:09:01,665 - INFO - 
+Classification Report:
+2025-05-18 15:09:01,665 - INFO - 
+              precision    recall  f1-score   support
+
+         Arc     0.9373    0.9628    0.9499     13094
+     Drapery     0.8607    0.8737    0.8672      5805
+     Hotspot     0.8307    0.7513    0.7890      2710
+      Radial     0.8531    0.8239    0.8383      5435
+
+    accuracy                         0.8946     27044
+   macro avg     0.8704    0.8529    0.8611     27044
+weighted avg     0.8932    0.8946    0.8936     27044
+
+2025-05-18 15:09:01,665 - INFO - 
+Results saved to C:\Users\Administrator\Desktop\classification\logs\消融实验\通道\32\test_results
